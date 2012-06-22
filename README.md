@@ -16,8 +16,8 @@ Say, you're a fan of Arnold and you watched Terminator last week with your frien
 1. [Alfred](http://www.alfredapp.com/) + [Alfred Powerpack](http://www.alfredapp.com/powerpack/)
 2. [Rovi API Key](http://developer.rovicorp.com)
 3. [Twilio API Key](http://twilio.com)
-4. Growl
-5. Nice and shiny Mac - Of course you have one!
+4. [Growl](http://growl.info)
+5. [Nice and shiny Mac](http://www.youtube.com/results?search_query=get+a+mac) - Of course you have one!
 
 
 ## How to Use
@@ -26,25 +26,25 @@ Say, you're a fan of Arnold and you watched Terminator last week with your frien
 
 2. Just hit your Alfred keyboard shortcut. In my case I have it configured it as CMD + SPACE. (The default is probably ALT + SPACE)
 
-	![Alfred Launch Bar](https://github.com/ajotwani/Alfred-Flik/raw/master/images/alfred_launch_bar.png)
+	![Alfred Launch Bar](https://github.com/mashery/Alfred-Flik/raw/master/images/alfred_launch_bar.png)
 
 3. Type the keyword **movie** followed by the **name of the movie** you want to search by and then the **name/phone number** of the person you'd like to text the results to (You can change the keyword by editing the info.plist file)	
 	
 	Using the phone number
 	
-	![Alfred Launch Bar](https://github.com/ajotwani/Alfred-Flik/raw/master/images/alfred_launch_bar_fill_1.png)	
+	![Alfred Launch Bar](https://github.com/mashery/Alfred-Flik/raw/master/images/alfred_launch_bar_fill_1.png)	
 	
 	Using the address book described in **call_twilio.py** file
 	
-	![Alfred Launch Bar](https://github.com/ajotwani/Alfred-Flik/raw/master/images/alfred_launch_bar_fill_2.png)	
+	![Alfred Launch Bar](https://github.com/mashery/Alfred-Flik/raw/master/images/alfred_launch_bar_fill_2.png)	
 
 4. A text message is sent to your friend 
 
-	![Alfred Text Message](https://github.com/ajotwani/Alfred-Flik/raw/master/images/text_message.png)
+	![Alfred Text Message](https://github.com/mashery/Alfred-Flik/raw/master/images/text_message.png)
 	
 5. Also, you get a Growl notification confirming that the text was sent and the list of the movies that were sent.
 
-	![Alfred Growl Notification](https://github.com/ajotwani/Alfred-Flik/raw/master/images/alfred_growl.png)
+	![Alfred Growl Notification](https://github.com/mashery/Alfred-Flik/raw/master/images/alfred_growl.png)
 
 
 ## Examples ##
@@ -55,7 +55,7 @@ Say, you're a fan of Arnold and you watched Terminator last week with your frien
 
 	
 1. Grab the latest source
-	<pre>git clone git://github.com/ajotwani/Alfred-Flik.git</pre>
+	<pre>git clone git://github.com/mashery/Alfred-Flik.git</pre>
 
 2. Copy the directory you just downloaded to -
 	<pre>~/Library/Application Support/Alfred/extensions/scripts</pre>
@@ -64,10 +64,10 @@ Say, you're a fan of Arnold and you watched Terminator last week with your frien
 
 4. Open the file "~/Library/Application Support/Alfred/extensions/scripts/AlfredFlik/rovi_auth.py" and type in your type in your Rovi **API key** & **Shared Secret**. Get your Rovi (Metadata and Search) API Key [here](http://developer.rovicorp.com)
 
-	![Type your Rovi API Key](https://github.com/ajotwani/Alfred-Flik/raw/master/images/rovi_api_key.png)
+	![Type your Rovi API Key](https://github.com/mashery/Alfred-Flik/raw/master/images/rovi_api_key.png)
 5. Open the file "call\_twilio\_.py" and type in your Twilio account id and toke id. Get your Twilio account & token id [here](http://twilio.com)
 
-	![Type your Twilio API Key](https://github.com/ajotwani/Alfred-Flik/raw/master/images/twilio_api_key.png)
+	![Type your Twilio API Key](https://github.com/mashery/Alfred-Flik/raw/master/images/twilio_api_key.png)
 6. Install all dependencies. Open Terminal and type the following (If you run into permission issues, try with sudo) -
 
 	Twilio's Python module
@@ -85,7 +85,7 @@ Say, you're a fan of Arnold and you watched Terminator last week with your frien
 Be sure to follow the configuration steps above and use this step-by-step guide to tweak to your heart's content.
 
 1. Grab the latest source
-	<pre>git clone git://github.com/ajotwani/Alfred-Flik.git</pre>
+	<pre>git clone git://github.com/mashery/Alfred-Flik.git</pre>
 
 2. All the Rovi search related action takes place in the file **'rovi\_search\_.py'**
 
@@ -93,7 +93,7 @@ Be sure to follow the configuration steps above and use this step-by-step guide 
 
 4. All the Twilio related action takes place in the file **"call_twilio.py"**
 
-5. Tweak away
+5. Tweak away!
 
 
 ## About 
