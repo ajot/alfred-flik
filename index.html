@@ -7,6 +7,14 @@
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+	
+	<!-- overriding with Bootstrap and mashery-tools.css -->
+	<link href="http://mashery.github.com/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="http://mashery.github.com/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="http://mashery.github.com/assets/css/docs.css" rel="stylesheet">
+    <link href="http://mashery.github.com/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+	<link href="http://mashery.github.com/assets/css/mashery-tools.css" rel="stylesheet">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -14,6 +22,43 @@
   </head>
   <body>
     <div class="wrapper">
+	
+		<!-- BEGIN mashery navigation bar -->
+		<div class="navbar navbar-fixed-top">
+		      <div class="navbar-inner">
+		        <div class="container">
+				<div id="logo"><img src="http://mashery.github.com/assets/img/mashery-logo.png" class="bs-icon"></div>
+
+		          <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		          </button>
+		          <!-- <a class="brand" href="./index.html">Bootstrap</a> -->
+		          <div class="nav-collapse collapse">
+		            <ul class="nav">
+		              <li class="">
+		                <a href="http://dev.mashery.com">Home</a>
+		              </li>
+		              <li class="">
+		                <a href="http://dev.mashery.com/apis">APIs</a>
+		              </li>
+		              <li class="active">
+		                <a href="http://mashery.github.com">Tools</a>
+		              </li>
+		              <li class="">
+		                <a href="http://mashery.appstores.com">Apps</a>
+		              </li>
+		              <li class="">
+		                <a href="http://masherydev.tumblr.com">Blog</a>
+		              </li>
+		            </ul>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		<!-- END mashery navigation bar -->
+	
       <header>
         <h1>Alfred-flik</h1>
         <p>An Alfred Extension</p>
