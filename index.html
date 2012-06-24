@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Alfred-flik by mashery</title>
+    <title>Alfred Flik - An Alfred App extension from Mashery</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -20,7 +20,7 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body class="tool-details-page">
     <div class="wrapper">
 	
 		<!-- BEGIN mashery navigation bar -->
@@ -60,8 +60,8 @@
 		<!-- END mashery navigation bar -->
 	
       <header>
-        <h1>Alfred-flik</h1>
-        <p>An Alfred Extension</p>
+        <h1>Alfred Flik</h1>
+        <p>An Alfred app extension</p>
 
         <p class="view"><a href="https://github.com/mashery/alfred-flik">View the Project on GitHub <small>mashery/alfred-flik</small></a></p>
 
@@ -69,25 +69,26 @@
         <ul>
           <li><a href="https://github.com/mashery/alfred-flik/zipball/master">Download <strong>ZIP File</strong></a></li>
           <li><a href="https://github.com/mashery/alfred-flik/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/mashery/alfred-flik">View On <strong>GitHub</strong></a></li>
         </ul>
+
+		<p><a href="https://github.com/mashery/alfred-flik" class="btn btn-primary btn-large" >View Project on GitHub</a></p>
       </header>
       <section>
-        <h1>What is "AlfredFlik"?</h1>
+        <h1>What is Alfred Flik?</h1>
 
-<p>"AlfredFlik" is an <a href="http://www.alfredapp.com/">Alfred</a> extension built using Python, that finds similar movies using Rovi's Metadata and Search API and then allow you to text them to a phone number using Twilio's API.</p>
+<p>"AlfredFlik" is an <a href="http://www.alfredapp.com/">Alfred</a> extension built using Python, that finds similar movies using <strong>Rovi's Metadata and Search API</strong> and then allow you to text them to a phone number using Twilio's API.</p>
 
-<h2>What is Alfred?</h2>
+<hr class="soften"><h2>What is Alfred?</h2>
 
 <p><a href="http://alfredapp.com">Alfred</a> is an award-winning productivity application for Mac OS X, which aims to save you time in searching your local computer and the web. Whether it's maps, Amazon, eBay, Wikipedia, you can feed your web addiction quicker than ever.</p>
 
 <p>The real power of Alfred lies in it's <a href="http://www.alfredapp.com/powerpack/">powerpack</a> that allows you to create your very own Terminal shell scripts, AppleScripts, workflows, search filters and file groups to extend Alfred.</p>
 
-<h2>Summary</h2>
+<hr class="soften"><h2>Summary</h2>
 
-<p>Say, you're a fan of Arnold and you watched Terminator last week with your friend. You can't get enough of the action and you wanna watch more movies along the same lines. You can now use Alfred-Flik - a handy extension that lets you specify a movie name and the name/phone number of the person you'd like to text the list of movies to. Alfred-Flik then queries Rovi's Metadata and Search API, pulls up a list of similar movies. It also finds the ratings of these movies via Rotten Tomatoes. Finally it sends it as an SMS to the phone number you provide using Twilio. </p>
+<p>Say, you're a fan of Arnold and you watched Terminator last week with your friend. You can't get enough of the action and you wanna watch more movies along the same lines. You can now use Alfred-Flik - a handy extension that lets you specify a movie name and the name/phone number of the person you'd like to text the list of movies to. Alfred-Flik then queries <strong>Rovi's Metadata and Search API</strong>, pulls up a list of similar movies. It also finds the ratings of these movies via Rotten Tomatoes. Finally it sends it as an SMS to the phone number you provide using <strong>Twilio</strong>. </p>
 
-<h2>Requirements</h2>
+<hr class="soften"><h2>Requirements</h2>
 
 <ol>
 <li>
@@ -99,7 +100,7 @@
 <li><a href="http://www.youtube.com/results?search_query=get+a+mac">Nice and shiny Mac</a> - Of course you have one!</li>
 </ol>
 
-<h2>How to Use</h2>
+<hr class="soften"><h2>How to Use</h2>
 
 <ol>
 <li><p>Make sure Alfred is running. </p></li>
@@ -129,13 +130,13 @@
 
 <p><img src="https://github.com/mashery/alfred-flik/raw/master/images/alfred_growl.png" alt="Alfred Growl Notification"></p>
 </li>
-</ol><h2>Examples</h2>
+</ol><hr class="soften"><h2>Examples</h2>
 
 <pre><code>&lt;pre&gt;movie terminator john&lt;/pre&gt;
 &lt;pre&gt;movie "safety not guaranteed" +1417123456&lt;/pre&gt;
 </code></pre>
 
-<h2>Installation</h2>
+<hr class="soften"><h2>Installation</h2>
 
 <ol>
 <li>
@@ -150,7 +151,7 @@
 </li>
 <li><p>Rename this directory to say "AlfredFlik"    </p></li>
 <li>
-<p>Open the file "~/Library/Application Support/Alfred/extensions/scripts/AlfredFlik/rovi_auth.py" and type in your type in your Rovi <strong>API key</strong> &amp; <strong>Shared Secret</strong>. Get your Rovi (Metadata and Search) API Key <a href="http://developer.rovicorp.com">here</a></p>
+<p>Open the file "~/Library/Application Support/Alfred/extensions/scripts/AlfredFlik/rovi_auth.py" and type in your type in your <strong> Rovi API key</strong> &amp; <strong>Shared Secret</strong>. Get your Rovi (Metadata and Search) API Key <a href="http://developer.rovicorp.com">here</a></p>
 
 <p><img src="https://github.com/mashery/alfred-flik/raw/master/images/rovi_api_key.png" alt="Type your Rovi API Key"></p>
 </li>
@@ -170,7 +171,7 @@
 
 <pre>easy_install simplejson</pre> </li>
 <li><p>You're done. Just give Alfred a whirl now. Refer <a href="#how-to-use">How to Use</a> above.    </p></li>
-</ol><h2>Development</h2>
+</ol><hr class="soften"><h2>Development</h2>
 
 <p>Be sure to follow the configuration steps above and use this step-by-step guide to tweak to your heart's content.</p>
 
@@ -184,17 +185,18 @@
 <li><p>All the Rovi auth related action takes place in the file <strong>'rovi_auth.py'</strong></p></li>
 <li><p>All the Twilio related action takes place in the file <strong>"call_twilio.py"</strong></p></li>
 <li><p>Tweak away</p></li>
-</ol><h2>About</h2>
+</ol><hr class="soften">
+
+<h2>About</h2>
 
 <ul>
-<li>No warranty expressed or implied.  Software is as is.</li>
-<li><a href="http://www.opensource.org/licenses/mit-license.html">MIT License</a></li>
-<li>Lovingly created by <a href="http://dev.mashery.com">Mashery Dev</a>
-</li>
+	<li>Lovingly created by <a href="http://dev.mashery.com">Mashery</a>.</li>
+	<li>No warranty expressed or implied. Software as is.</li>
+	<li>Provided under <a href="http://www.opensource.org/licenses/mit-license.html">MIT License</a></li>
 </ul>
       </section>
       <footer>
-        <p>This project is maintained by <a href="https://github.com/mashery">mashery</a></p>
+		<p>Check out more open-source tools from Mashery on <a href="http://mashery.github.com">Github</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
