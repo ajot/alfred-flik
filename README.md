@@ -58,7 +58,7 @@ Say, you're a fan of Arnold and you watched Terminator last week with your frien
 	<pre>git clone git://github.com/mashery/alfred-flik.git</pre>
 
 2. Copy the directory you just downloaded to -
-	<pre>~/Library/Application Support/Alfred/extensions/scripts</pre>
+	<pre>~/Library/Application\ Support/Alfred/extensions/scripts</pre>
 
 3. Rename this directory to say "AlfredFlik"	
 
