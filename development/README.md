@@ -53,19 +53,16 @@ Say, you're a fan of Arnold and you watched Terminator last week with your frien
 
 ## Installation
 
-	
-1. Grab the latest source
-	<pre>git clone git://github.com/mashery/alfred-flik.git</pre>
+1. Download the extension [here]() 
 
-2. Copy the directory you just downloaded to -
-	<pre>~/Library/Application\ Support/Alfred/extensions/scripts</pre>
+2. Double click on the .alfredextension file you just download. The extension will install and open up the preferences window in Alfred.
 
-3. Rename this directory to say "AlfredFlik"	
+3. Right click on the extension on the left side bar in Alfred (Extension tab) and click on "Show in Finder". The source files for the extension will open up in Finder. 
 
-4. Open the file "~/Library/Application Support/Alfred/extensions/scripts/AlfredFlik/rovi_auth.py" and type in your type in your Rovi **API key** & **Shared Secret**. Get your Rovi (Metadata and Search) API Key [here](http://developer.rovicorp.com)
+4. Open the file "rovi_auth.py" and type in your type in your Rovi **API key** & **Shared Secret**. Get your Rovi (Metadata and Search) API Key [here](http://developer.rovicorp.com)
 
 	![Type your Rovi API Key](https://github.com/mashery/alfred-flik/raw/master/images/rovi_api_key.png)
-5. Open the file "call\_twilio\_.py" and type in your Twilio account id and toke id. Get your Twilio account & token id [here](http://twilio.com)
+5. Open the file "call\_twilio.py" and type in your Twilio account id and toke id. Get your Twilio account & token id [here](http://twilio.com)
 
 	![Type your Twilio API Key](https://github.com/mashery/alfred-flik/raw/master/images/twilio_api_key.png)
 6. Install all dependencies. Open Terminal and type the following (If you run into permission issues, try with sudo) -
