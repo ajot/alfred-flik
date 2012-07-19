@@ -26,25 +26,25 @@ Say, you're a fan of Arnold and you watched Terminator last week with your frien
 
 2. Just hit your Alfred keyboard shortcut. In my case I have it configured it as CMD + SPACE. (The default is probably ALT + SPACE)
 
-	![Alfred Launch Bar](https://github.com/mashery/alfred-flik/raw/master/images/alfred_launch_bar.png)
+	![Alfred Launch Bar](https://github.com/mashery/alfred-flik/raw/master/development/images/alfred_launch_bar.png)
 
 3. Type the keyword **movie** followed by the **name of the movie** you want to search by and then the **name/phone number** of the person you'd like to text the results to (You can change the keyword by editing the info.plist file)	
 	
 	Using the phone number
 	
-	![Alfred Launch Bar](https://github.com/mashery/alfred-flik/raw/master/images/alfred_launch_bar_fill_1.png)	
+	![Alfred Launch Bar](https://github.com/mashery/alfred-flik/raw/master/development/images/alfred_launch_bar_fill_1.png)	
 	
 	Using the address book described in **call_twilio.py** file
 	
-	![Alfred Launch Bar](https://github.com/mashery/alfred-flik/raw/master/images/alfred_launch_bar_fill_2.png)	
+	![Alfred Launch Bar](https://github.com/mashery/alfred-flik/raw/master/development/images/alfred_launch_bar_fill_2.png)	
 
 4. A text message is sent to your friend 
 
-	![Alfred Text Message](https://github.com/mashery/alfred-flik/raw/master/images/text_message.png)
+	![Alfred Text Message](https://github.com/mashery/alfred-flik/raw/master/development/images/text_message.png)
 	
 5. Also, you get a Growl notification confirming that the text was sent and the list of the movies that were sent.
 
-	![Alfred Growl Notification](https://github.com/mashery/alfred-flik/raw/master/images/alfred_growl.png)
+	![Alfred Growl Notification](https://github.com/mashery/alfred-flik/raw/master/development/images/alfred_growl.png)
 
 
 ## Examples ##
@@ -53,7 +53,7 @@ Say, you're a fan of Arnold and you watched Terminator last week with your frien
 
 ## Installation
 
-1. Download the extension [here]() 
+1. Download the extension [here](https://github.com/mashery/alfred-flik/raw/master/Alfred-Flik.zip) 
 
 2. Double click on the .alfredextension file you just download. The extension will install and open up the preferences window in Alfred.
 
@@ -61,10 +61,10 @@ Say, you're a fan of Arnold and you watched Terminator last week with your frien
 
 4. Open the file "rovi_auth.py" and type in your type in your Rovi **API key** & **Shared Secret**. Get your Rovi (Metadata and Search) API Key [here](http://developer.rovicorp.com)
 
-	![Type your Rovi API Key](https://github.com/mashery/alfred-flik/raw/master/images/rovi_api_key.png)
+	![Type your Rovi API Key](https://github.com/mashery/alfred-flik/raw/master/development/images/rovi_api_key.png)
 5. Open the file "call\_twilio.py" and type in your Twilio account id and toke id. Get your Twilio account & token id [here](http://twilio.com)
 
-	![Type your Twilio API Key](https://github.com/mashery/alfred-flik/raw/master/images/twilio_api_key.png)
+	![Type your Twilio API Key](https://github.com/mashery/alfred-flik/raw/master/development/images/twilio_api_key.png)
 6. Install all dependencies. Open Terminal and type the following (If you run into permission issues, try with sudo) -
 
 	Twilio's Python module
